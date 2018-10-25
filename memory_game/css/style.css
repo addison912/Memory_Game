@@ -4,6 +4,7 @@ h1 {
   color: #0d2c40;
   letter-spacing: 1px;
   font-size: 45px;
+  margin: 0;
 }
 
 h2 {
@@ -19,9 +20,11 @@ p {
   line-height: 26px;
   font-size: 18px;
 }
+
 body {
   text-align: center;
 }
+
 a {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
@@ -29,4 +32,67 @@ a {
   color: #f15b31;
   letter-spacing: 1px;
   font-size: 18px;
+  border-bottom: 2px solid transparent;
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+}
+
+header {
+  background-color: #f15b31;
+  color: #ffffff;
+  padding: 20px 30px;
+  margin: 0;
+}
+
+nav {
+  background-color: #00a6b3;
+  padding: 20px;
+}
+
+nav a {
+  margin: 0 20px;
+  color: #ffffff;
+}
+
+main {
+  width: 850px;
+  margin: 35px auto;
+}
+
+.card {
+  margin: 40px 8px;
+}
+
+footer {
+  text-transform: uppercase;
+  padding: 20px;
+  background: #0d2c40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+}
+
+.copyright {
+  float: left;
+}
+
+.message {
+  float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.name {
+  color: #f15b31;
+  font-weight: 700;
 }
